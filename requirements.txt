@@ -1,5 +1,4 @@
-eventlet>=0.35.0
-python-socketio[eventlet]==5.11.0
-Flask==3.0.3
-Flask-Cors==4.0.1
-gunicorn==20.1.0
+flask==3.0.3
+flask-cors==4.0.0
+python-socketio[eventlet]==5.11.3
+eventlet==0.36.1

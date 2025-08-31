@@ -1,6 +1,6 @@
-# server.py
-
 import eventlet
+eventlet.monkey_patch()
+
 import socketio
 import string
 import random
@@ -132,3 +132,4 @@ if __name__ == '__main__':
     port = 5000
     print(f"Starting server on http://{host}:{port}")
     eventlet.wsgi.server(eventlet.listen((host, port)), app)
+

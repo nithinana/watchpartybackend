@@ -1,5 +1,3 @@
-flask==3.0.3
-flask-cors==4.0.0
-python-socketio[eventlet]==5.11.3
-eventlet==0.36.1
-gunicorn==23.0.0
+eventlet
+python-socketio
+gunicorn
